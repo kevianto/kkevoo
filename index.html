@@ -293,34 +293,33 @@
         </div>
         <div class="row pt-4 mt-5">
           <div class="col-12">
-            <form action="#" method="POST">
+            <form action="https://formspree.io/f/xovqadnz" method="POST">
               <div class="row d-flex justify-content-center">
                 <div class="col-lg-6">
                   <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name*" required>
+                    <input type="text" class="form-control" id="floatingInput" name="name" placeholder="Enter Name*" required>
                     <label for="floatingInput">Enter Name*</label>
                   </div>
                   <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingEmail" placeholder="Enter Email*" required>
+                    <input type="email" class="form-control" id="floatingEmail" name="email" placeholder="Enter Email*" required>
                     <label for="floatingEmail">Enter Email*</label>
                   </div>
                   <div class="form-floating mb-3">
-                    <input type="number" class="form-control" id="floatingPassword" placeholder="Enter Phone*" required>
-                    <label for="floatingPassword">Enter Phone*</label>
+                    <input type="tel" class="form-control" id="floatingPhone" name="phone" placeholder="Enter Phone*" required>
+                    <label for="floatingPhone">Enter Phone*</label>
                   </div>
                 </div>
                 <div class="form-floating col-lg-6">
-                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingMessage" style="height: 205px" required></textarea>
-                  <label for="floatingMessage" class="px-4">Enter Message*</label>
+                  <textarea class="form-control" name="message" id="floatingMessage" placeholder="Leave a comment here" style="height: 205px" required></textarea>
+                  <label for="floatingMessage">Enter Message*</label>
                 </div>
                 <div class="col-12 mt-5 d-flex justify-content-center">
-                  <button class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
+                  <button type="submit" class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
                 </div>
               </div>
-  
             </form>
+            
           </div>
-        </div>
        </div>
      </section>
 
